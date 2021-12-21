@@ -25,7 +25,7 @@ body {
   color: var(--accent);
 }
 .header-logo-studio {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -40,23 +40,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-color);
 }
-
-.header-link:hover,
-.header-link:focus,
-.header-mail:hover,
-.header-tel:hover,
-.header-mail:focus,
-.header-tel:focus {
-  color: var(--accent);
-}
-.header-mail,
-.header-tel {
+.header-contact {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--additional-color);
 }
+
+.header-link:hover,
+.header-link:focus,
+.header-contact:hover,
+.header-contact:hover {
+  color: var(--accent);
+}
+
 /* hero */
 .hero {
   background-color: #2f303a;
@@ -154,7 +152,7 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.footer-contact {
+.footer-contact-address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
